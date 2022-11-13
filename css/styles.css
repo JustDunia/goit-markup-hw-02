@@ -1,0 +1,17 @@
+:root {
+    --theme-color: #2196f3;
+    --white: #fff;
+    --black: #000000;
+    --dark-grey: #212121;
+    --light-grey: #757575;
+    --white-transparent: #ffffff99;
+    --background-light: #e5e5e5;
+    --background-grey: #f5f4fa;
+    --background-dark: #2f303a;
+    --portfolio-border: #eeeeee;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--dark-grey);
+}
