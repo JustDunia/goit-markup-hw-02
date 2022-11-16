@@ -44,12 +44,12 @@ body {
     letter-spacing: 0.02em;
 }
 
-.contact-item a {
-    color: var(--light-grey);
+.nav-item a {
+    color: var(--dark-grey);
 }
 
-.header-item a:visited {
-    color: inherit;
+.contact-item a {
+    color: var(--light-grey);
 }
 
 .header-item a:hover,
@@ -80,8 +80,7 @@ body {
     color: var(--white-transparent);
 }
 
-
-/* AGENCJA */         
+/* AGENCJA */
 
 .section-title {
     font-size: 36px;
@@ -167,7 +166,6 @@ body {
     font-size: 16px;
     color: var(--light-grey);
 }
-
 
 /* PORTFOLIO */
 
