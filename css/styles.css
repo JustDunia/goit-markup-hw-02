@@ -24,14 +24,13 @@ body {
     background-color: var(--white);
 }
 
-.header a {
+.header a,
+.footer a {
     text-decoration: none;
 }
 
 .logo {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
+    font: 700 26px 'Raleway', sans-serif;
     color: var(--black);
 }
 
@@ -50,7 +49,7 @@ body {
 }
 
 .header-item a:visited {
-    color: initial;
+    color: inherit;
 }
 
 .header-item a:hover,
@@ -58,10 +57,35 @@ body {
     color: var(--theme-color);
 }
 
-/* main */
+/* footer */
+
+.footer {
+    background-color: var(--background-dark);
+}
+
+.footer .logo {
+    color: var(--white);
+}
+
+.address {
+    font-style: normal;
+    line-height: 1.71;
+}
+
+.address-loc {
+    color: var(--white);
+}
+
+.address-contact {
+    color: var(--white-transparent);
+}
+
+
+/* AGENCJA */         
 
 .section-title {
     font-size: 36px;
+    text-align: center;
 }
 
 /* heading section */
@@ -84,10 +108,10 @@ body {
     font-size: 16px;
     font-weight: 700;
     line-height: 1.88;
+    letter-spacing: 0.06em;
     background-color: var(--theme-color);
     color: var(--white);
-    letter-spacing: 0.06em;
-    cursor: pointer
+    cursor: pointer;
 }
 
 /* lorem section */
@@ -114,7 +138,6 @@ body {
 
 .aboutus-section {
     background-color: var(--white);
-    text-align: center;
 }
 
 .aboutus-item {
@@ -125,7 +148,6 @@ body {
 
 .team-section {
     background-color: var(--background-grey);
-    text-align: center;
 }
 
 .team-item {
@@ -146,36 +168,44 @@ body {
     color: var(--light-grey);
 }
 
-/* footer */
 
-.footer {
-    background-color: var(--background-dark);
+/* PORTFOLIO */
+
+.main {
+    background-color: var(--white);
 }
 
-.footer a {
-    text-decoration: none;
+.filter-item {
+    list-style: none;
 }
 
-.footer .logo {
-    color: var(--white);
+.filter-btn {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.625;
+    background-color: var(--background-grey);
+    cursor: pointer;
 }
-
-.address {
-    font-style: normal;
-    line-height: 1.71;
-}
-.address-loc {
-    color: var(--white);
-}
-
-.address-contact {
-    color: var(--white-transparent);
-}
-
-/* portfolio */
 
 .filter-btn:hover,
 .filter-btn:focus {
     background-color: var(--theme-color);
     color: var(--white);
+}
+
+.portfolio-item {
+    list-style: none;
+}
+
+.portfolio-name {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-category {
+    font-size: 16px;
+    line-height: 1.875;
+    color: var(--light-grey);
 }
