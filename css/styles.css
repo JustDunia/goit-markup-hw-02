@@ -52,6 +52,10 @@ body {
     color: var(--light-grey);
 }
 
+.header-item a:visited {
+    color: inherit;
+}
+
 .header-item a:hover,
 .header-item a:focus {
     color: var(--theme-color);
